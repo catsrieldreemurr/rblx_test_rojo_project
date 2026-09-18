@@ -18,7 +18,7 @@ game.Workspace.TestPart.ClickDetector.MouseClick:Connect(function(playerWhoClick
         if clickedAmount > highestValue then
             highestValue = clickedAmount
         end
-
+        
         clickedAmount = 0
         totalClicks = 0
         chanceToFail = DEFAULTCHANCE
